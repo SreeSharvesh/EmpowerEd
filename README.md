@@ -41,6 +41,7 @@ To run EmpowerEd locally, ensure you have Node.js and npm installed.
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Design: Wireframes and prototypes created using Figma
+- Deployment - AWS and Docker
 
 
 ## Future Roadmap
