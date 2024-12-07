@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="project-header">
+        <img src="/images/EmpowerEd.png" alt="" class="headerimg">
+    </div>
+
+    <div class="page">
+        <div class="heading">
+            <div class="upper">Login,<br>
+                and start sharing your story.</div>
+            <div class="down">Register to be able to share your content and connect with others.</div>
+        </div>
+        <div class="formpart">
+            <form action="/login" method="POST">
+                <label for="e-mail">Your username</label>
+                <input class="up" type="text" name="username" id="email" placeholder="Type your username here">
+                <label for="pass">Password</label>
+                <input class="up" type="password" name="password" id="password" placeholder="Type your password here ">
+
+                <div class="message"></div>
+                <div class="submitbtn">
+                    <input type="submit" value="Login"
+                        style="background-color: #6B69E2; color: #fff; padding: 10px 20px; border-radius: 15px; border: none; cursor: pointer; font-size: 16px;">
+                </div>
+
+                <div class="signup">Don't have an account? <a href="/register" class="button"
+                    style="color: #6B69E2; font-weight: 600; text-decoration: none;"> Sign Up</a>
+            </div>
+            </form>
+            <div class="image"><img src="/images/dis.png" alt="" class="disabledimg"></div>
+        </div>
+    </div>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>
