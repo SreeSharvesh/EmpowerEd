@@ -36,14 +36,14 @@ To run EmpowerEd locally, ensure you have Node.js and npm installed.
    ```
 
 
-### Technologies Used
-Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: Node.js, Express.js
-Database: MongoDB
-Design: Wireframes and prototypes created using Figma
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript, Bootstrap
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Design: Wireframes and prototypes created using Figma
 
 
-### Future Roadmap
+## Future Roadmap
 - Implement ARIA roles for enhanced accessibility.
 - Provide video/audio transcriptions for hearing-impaired users.
 - Add image descriptions for visually impaired users.
